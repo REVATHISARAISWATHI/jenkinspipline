@@ -14,7 +14,7 @@ pipeline{
                    script
       {
             def bamboo=bamboouser(JSON,"http://18.220.143.53:8085")
-            println(bamboo)
+            //println(bamboo)
             gamefication(bamboo)
             }
                   //bamboo("http://18.220.143.53:8085")
