@@ -11,7 +11,12 @@ pipeline{
                     //Aworkitems()
                    // Acreatewrkitem("vickysastryvs","ENG122","Epic")
                   // Aaddcomment("vickysastryvs","ENG122","13")
-                bamboouser(JSON,"http://18.220.143.53:8085")
+                   script
+      {
+            def bamboo=bamboouser(JSON,"http://18.220.143.53:8085")
+            println(bamboo)
+            gamefication(bamboo)
+            }
                   //bamboo("http://18.220.143.53:8085")
             //      script
      // {
