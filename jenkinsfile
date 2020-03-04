@@ -13,7 +13,7 @@ pipeline{
                   // Aaddcomment("vickysastryvs","ENG122","13")
                    script
       {
-            def bamboo=bamboouser(JSON,"http://18.220.143.53:8085")
+            String bamboo=bamboouser(JSON,"http://18.220.143.53:8085")
             //println(bamboo)
             gamefication(bamboo)
             }
